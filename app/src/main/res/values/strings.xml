@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guia de Cinema</string>
+    <string name="title_activity_iguatemi_maps">Map</string>
+    <string name="title_activity_itaguacu_maps">Map</string>
+    <string name="title_activity_fritz_park_maps">Map</string>
+
+
+</resources>

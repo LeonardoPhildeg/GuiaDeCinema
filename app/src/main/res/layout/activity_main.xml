@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="0dp"
+                tools:text="nome"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nome_cinema"/>
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="localizacao"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/localizacao_cinema"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sala 1 - Programação"
+                android:onClick="listaIguatemiSala1"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sala 2 - Programação"
+                android:onClick="listaIguatemiSala2"/>
+
+            <Button
+                android:id="@+id/buttonLocalizacao1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localização"
+                android:onClick="viewMapIguatemi"/>
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="0dp"
+                tools:text="nome"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nome_cinema2"/>
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="localizacao"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/localizacao_cinema2"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sala 1 - Programação"
+                android:onClick="listaItaguacuSala1"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sala 2 - Programação"
+                android:onClick="listaItaguacuSala2"/>
+
+            <Button
+                android:id="@+id/buttonLocalizacao2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localização"
+                android:onClick="viewMapItaguacu"/>
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="0dp"
+                tools:text="nome"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nome_cinema3"/>
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                tools:text="localizacao"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/localizacao_cinema3"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sala 1 - Programação"
+                android:onClick="listaFritzParkSala1"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sala 2 - Programação"
+                android:onClick="listaFritzParkSala2"/>
+
+            <Button
+                android:id="@+id/buttonLocalizacao3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Localização"
+                android:onClick="viewMapFritzPark"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
